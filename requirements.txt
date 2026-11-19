@@ -1,0 +1,15 @@
+# Third-party libraries used by the programs in this repository.
+# Standard-library modules (hashlib, os, pickle, re, csv, string,
+# ipaddress, datetime, collections, socket, sys) are NOT listed here.
+#
+#   pip install -r requirements.txt
+
+numpy            # Assignment-1: matrix operations
+faker            # Ass2_11, Ass3_06: fake data generation
+pandas           # Ass3_06, Ass3_07, Ass3_08: data analysis
+matplotlib       # Ass3_07, Ass3_08: charts
+requests         # Ass4_prog01, Ass4_prog02: HTTP requests
+beautifulsoup4   # Ass4_prog02, Ass4_prog06: HTML parsing
+scapy            # Ass4_prog04, Ass4_prog08: packet crafting
+python-nmap      # Ass4_prog07: port scanning (also needs the nmap binary)
+cryptography     # Ass5_prog02, Ass5_prog06: Fernet encryption

@@ -1,0 +1,30 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- Generated artifacts from the programs ----
+# (these are produced when the scripts run; keep them out of version control)
+login_records.csv
+output.csv
+scan_report.txt
+students.dat
+password_store.txt
+secret.key
+wrong.key
+compressed_*
+*.enc
+*.png
